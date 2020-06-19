@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reramip.github.io</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <script src="./js/jquery.js"></script>
+  <script src="./js/jquery.color.js"></script>
+  <script src="./js/script.js"></script>
+  <title>Random Quote Machine</title>
 </head>
 <body>
-  <h1>EMPTY PAGE NOW</h1>
+  <div id="quote-box">
+    <div id="quote-content">
+      <i class="fa fa-quote-left"></i>
+      <p id="text"></p>
+      <p id="author"></p>
+    </div>
+    <div id="clickables">
+        <a id="tweet-quote" class="clickable" titie="Tweet it!" href="https://twitter.com/intent/tweet"><i class="fa fa-twitter"></i></a>
+        <button id="new-quote" class="clickable" title="Change it!">New quote</button>
+    </div>
+  </div>
 </body>
 </html>
